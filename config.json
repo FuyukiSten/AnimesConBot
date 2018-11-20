@@ -1,6 +1,5 @@
 { 
-  "token"  : process.env.TOKEN,
-  "prefix" : "-",
+  "prefix": "-",
   "lords": ["505096421532368907", "276128532558512138"],
   "bemvindocanal": "499631065502187531"
 }
