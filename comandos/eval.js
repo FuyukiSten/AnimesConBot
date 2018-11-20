@@ -1,5 +1,11 @@
 const Discord = require('discord.js');
 exports.run = async (client, message, args) => {
+    function clean(text) {
+  if (typeof(text) === "string")
+    return text.replace(/`/g, "`" + String.fromCharCode(8203)).replace(/@/g, "@" + String.fromCharCode(8203));
+  else
+      return text;
+}
     if(!client.config.lords.includes(message.author.id)) 
     {
         let _e = new Discord.RichEmbed();
