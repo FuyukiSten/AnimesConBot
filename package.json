@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
   },
-  "engines": { "node": "8.4.0" },
   "author": "Random",
   "license": "UNLICENSED",
   "dependencies": {
